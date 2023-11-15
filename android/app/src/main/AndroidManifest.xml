@@ -1,4 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"><!-- AndroidManifest.xml -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:label="ta_aplikasi_berita"
         android:name="${applicationName}"
